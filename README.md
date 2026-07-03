@@ -9,7 +9,7 @@ I build multi-agent systems that do more than wrap an LLM call — routing logic
 
 #### 🧠 What I've built
 
-**AI E-Commerce Operations Brain** — [repo link]
+**AI E-Commerce Operations Brain** — [repo link](https://github.com/SHASHANK-SAMALA/E-commerce-Operations-Brain)
 7-agent LangGraph system — coordinator, 4 parallel domain agents (sales, inventory, marketing, support), memory, and reflection — that diagnoses revenue anomalies in under 15 seconds.
 - Two-stage router: deterministic rules resolve 95% of queries at zero LLM cost, GPT-4o handles the rest
 - 16 regex-based prompt-injection filters, plus human-in-the-loop approval before any state-changing action runs
@@ -17,7 +17,7 @@ I build multi-agent systems that do more than wrap an LLM call — routing logic
 
 `LangGraph` `Azure OpenAI` `MCP` `pgvector` `Redis` `React`
 
-**Multi-Agent AI Orchestrator** — [repo link]
+**Multi-Agent AI Orchestrator** — [repo link](https://github.com/SHASHANK-SAMALA/langraph_mcp)
 Supervisor-agent system — 3 specialists (CI/CD, Productivity, Market) talking to 5 MCP tool servers (GitHub, Gmail, Calendar, Stock, Tavily).
 - Self-healing CI/CD agent: reads a failed GitHub Actions log → finds a fix via Tavily → writes a patch → tests it in a sandbox → opens a PR for human approval
 - Evaluator node scores every response 1–5 on accuracy/completeness/actionability, auto-retries up to 2x below threshold
